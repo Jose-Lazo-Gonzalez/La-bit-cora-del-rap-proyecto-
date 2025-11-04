@@ -9,7 +9,12 @@ nav ul {
 header {padding: 15px;
     color:  white;
     background-color: rgb(142, 6, 142);}
-nav ul a {color: red;}
+nav ul a {color: darkcyan;}
 body {
     margin: 0;
+}
+footer{
+    background-color: rgb(142, 6, 142) ;
+    padding: 1em 0;
+    color: white;
 }
