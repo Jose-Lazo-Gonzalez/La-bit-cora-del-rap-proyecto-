@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background-size: cover;
+  line-height: 1.6;
+  backdrop-filter: blur(3px);
+}
+
+/* === ENCABEZADO === */
+header {
+  background: linear-gradient(135deg, #eb0000, #222 70%);
+  text-align: center;
+  padding: 3% 0;
+  border-bottom: 0.5%;
+  box-shadow: 0 0 3% rgba(229, 9, 20, 0.4);
+}
+
+header h1 {
+  font-family: sans-serif;
+  font-size: larger;
+  letter-spacing: 0.2vw;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 0 0 1%;
+}
+
+
+nav {
+    color: white;
+  background:linear-gradient(105deg, #000000, #be1f1f 90%);
+  border-right: 0.4%;
+  padding: 2%;
+  width: 18%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  overflow-y: auto;
+}
+
+nav h2 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 2vw;
+  margin-bottom: 2%;
+}
+
+nav ul {
+
+  padding: 0;
+}
+
+nav ul li {
+  margin: 4% 0;
+}
+
+nav ul li a {
+    color: white;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+nav ul li a:hover {
+  
+  letter-spacing: 0.2vw;
+  color: cyan;
+}
+
+
+article {
+  margin-left: 20%;
+  padding: 3%;
+  background: #181818;
+  min-height: 100vh;
+}
+
+article h2, article h3 {
+  font-family: 'Bebas Neue', sans-serif;
+  text-transform: uppercase;
+  margin-top: 3%;
+  color: rgb(255, 0, 0);
+}
+
+article h2 {
+  font-size: 2.2vw;
+  border-left: 0.4%;
+  padding-left: 1%;
+  color: rgb(255, 0, 0);
+}
+
+article h3 {
+  font-size: 1.6vw;
+  color: rgb(255, 0, 0);
+}
+
+article p {
+  margin-bottom: 2%;
+  font-size: 1.1vw;
+  color: white;
+}
+
+article ul {
+  margin-left: 3%;
+  color: white;
+}
+
+article ul li {
+  margin-bottom: 1%;
+  color: white;
+}
+
+
+article img {
+  display: block;
+  width: 60%;
+  margin: 4% auto;
+  box-shadow: 0 0 3% rgba(229, 9, 20, 0.4);
+  border-radius: 2%;
+}
+
+footer {
+  background-color: #000;
+  text-align: center;
+  padding: 2%;
+  border-top: 0.4%;
+  margin-top: 4%;
+}
+
+footer h2 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1.6vw;
+  margin-bottom: 1%;
+  margin-left: 4%;
+  color: white;
+}
+
+footer a {
+  color: crimson;
+  margin: 1%;
+}
+
+footer a:hover {
+  color: #fff;
+  text-shadow: #eb0000;
+}
