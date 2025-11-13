@@ -87,24 +87,25 @@ iframe {
   border: 3px solid #be1f1f;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(220, 20, 60, 0.4);
-  margin: 1rem;
-
-float: right;
-margin-left: 1.5rem;
+  margin: 0.5rem;
 }
+.video1{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+.video2{
+    float: left ;
+    margin-top: 2%}
 
-.video-primero {
+.video3 {float: right
+    ;
   width: 45%;
   height: 300px;
   border: 3px solid #be1f1f;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(220, 20, 60, 0.4);
-  margin: 1rem;
-
-float: left;
-margin-left: 1.5rem;
-}
-
+  margin: 1rem;}
 
 footer {
   background-color: #000;
@@ -125,10 +126,9 @@ footer a {
 footer a:hover {
   color: white;
   transition: 0.7s;
-  letter-spacing: 0.2vw;
-}
+  letter-spacing: 0.2vw;}
 
-::-webkit-scrollbar {
+  ::-webkit-scrollbar {
   width: 12px;  
   height: auto;
 }
